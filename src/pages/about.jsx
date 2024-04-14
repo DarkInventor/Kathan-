@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Victoria Jordan</title>
+        <title>About - Kathan Mehta</title>
         <meta
           name="description"
-          content="I'm Victoria Jordan. A leader, artist, and frontend enthusiast in Austin, TX."
+          content="I'm Kathan Mehta. A leader, artist, and software engineer in Toronot, ON."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,35 +61,39 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I&apos;m Victoria. A leader, artist, and frontend enthusiast in
-              Austin, TX.
+              I&apos;m Kathan. A leader, artist, and software enthusiast in
+              Toronto.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I&apos;m a non-traditional first-generation student pursuing a
-                Bachelor of Science in Computer Science. I&apos;m entering my
-                senior year at Texas State University and I am the founder and
-                president of Girls Who Code TXST. My mission is to empower women
-                and non-binary students to take the reins of their independence
-                and become the leaders they have always admired.
+                Highly skilled Software Engineering professional with <b>2+ years of experience </b> building dynamic and responsive websites. Proven ability to develop parallel processing applications and integrating DevOps practices to streamline workflows. Adept at task prioritization using proactive approach to overcome data-related challenges. An entrepreneur who has <b>launched SaaS products </b>and built <b>over 50 open-source projects.</b> A quick learner able to easily pick up new skills and thrive in challenging solutions. Holds a <b> Post Graduation Diploma </b>in Information Technology Solutions. 
               </p>
               <p>
-                I&apos;ve traveled extensively through Southeast Asia and lived
-                in Shanghai, China for a year while teaching English. In 2020, I
-                launched an e-commerce store selling stickers and prints of my
-                artwork to generate donations for various organizations
-                supporting Black and transgender communities.
+                <b>Fluent</b> in English, Hindi, and Gujarati, <b>intermediate in French.</b>
+
+              </p>
+              <p><b>
+                Areas of Expertise:
+
+                </b>
+
               </p>
               <p>
-                This past summer, I was a frontend engineer intern at a startup
-                called F*** You Pay Me, creating an app to help influencers (a
-                female-majority community) gain pay equality and fair treatment
-                when making deals with brands.
+              Software Engineering, Full Stack Development, Frontend Development, Web Development, DevOps
               </p>
               <p>
-                In my free time, you can find me rock climbing, working out,
-                dancing, or at home spending quality time with my two
-                cockatiels.
+                <b>Industry Experience:</b>
+              </p>
+              <p>
+              Software as a Service (SaaS), Fintech, Information Technology, Consulting 
+              </p>
+              <p>
+              Feel free to reach out to me.  
+
+
+              </p>
+              <p>
+              Have a great day! 
               </p>
             </div>
           </div>
@@ -102,25 +106,25 @@ export default function About() {
                 Follow on Instagram
               </SocialLink> */}
               <SocialLink
-                href="https://github.com/vjordan-cs"
+                href="https://github.com/DarkInventor"
                 icon={GitHubIcon}
                 className="mt-4"
               >
                 Follow on GitHub
               </SocialLink>
               <SocialLink
-                href="https://linkedin.com/in/victoria-jordan01/"
+                href="https://linkedin.com/in/kathan-mehta-software-dev"
                 icon={LinkedInIcon}
                 className="mt-4"
               >
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:vjordan.cs@gmail.com"
+                href="mailto:ktmehta25@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                vjordan.cs@gmail.com
+                ktmehta25@gmail.com
               </SocialLink>
             </ul>
           </div>

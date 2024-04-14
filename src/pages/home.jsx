@@ -13,16 +13,16 @@ import {
   LinkedInIcon,
 } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
+import image2 from '@/images/photos/image-7.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoDell from '@/images/logos/dell.svg'
-import logoFYPM from '@/images/logos/fypm1.svg'
-import logoGWC from '@/images/logos/gwcLogo1.png'
+import logoDell from '@/images/logos/jkfilters.png'
+import logoFYPM from '@/images/logos/westernpu.png'
+import logoGWC from '@/images/logos/buyerfolio.jpeg'
 import logoTXST from '@/images/logos/txstStar.png'
-import halcyoncore from '@/images/logos/hc-logo.png'
-import amazonIcon from '@/images/logos/amazonlogo.png'
+import halcyoncore from '@/images/logos/buildspace.png'
+import amazonIcon from '@/images/logos/royal.png'
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -142,53 +142,39 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Amazon',
-      title: 'Software Engineering Intern',
+      company: 'Royal Labs, LLC',
+      title: 'Lead Software Engineer',
       logo: amazonIcon,
-      start: 'May 2023',
-      end: 'Aug 2023',
+      start: '2024',
+      end: 'Present',
     },
     {
-      company: 'HalcyonCore',
-      title: 'Co-Founder & Lead Engineer',
+      company: 'Buildspace',
+      title: 'N&W Builder/Apprentice',
       logo: halcyoncore,
-      start: 'March 2023',
+      start: '2023',
       end: 'Present',
     },
     {
-      company: 'Texas State VR Lab',
-      title: 'Virtual Reality Researcher',
-      logo: logoTXST,
-      start: 'Jan 2023',
-      end: 'Present',
-    },
-    {
-      company: 'Girls Who Code TXST',
-      title: 'Founder & President',
+      company: 'Buyer Folio',
+      title: 'Software Team Lead',
       logo: logoGWC,
-      start: 'Feb 2022',
-      end: 'Present',
+      start: '2023',
+      end: '2023',
     },
     {
-      company: 'FYPM App',
-      title: 'Front End Engineer Intern',
+      company: 'Western PU Industries',
+      title: 'Full Stack Developer',
       logo: logoFYPM,
-      start: 'April 2022',
-      end: 'July 2022',
+      start: '2020',
+      end: '2021',
     },
     {
-      company: 'Dell Technologies',
-      title: 'Software Engineer Intern',
+      company: 'JK Filters India',
+      title: 'IT Consultant',
       logo: logoDell,
-      start: 'June 2022',
-      end: 'Aug 2022',
-    },
-    {
-      company: 'Dell Technologies',
-      title: 'Software Engineer Intern',
-      logo: logoDell,
-      start: 'May 2021',
-      end: 'Aug 2021',
+      start: '2019',
+      end: '2020',
     },
   ]
 
@@ -276,31 +262,28 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Victoria Jordan - Leader, artist, and frontend enthusiast</title>
+        <title>Kathan Mehta - Leader, artist, and software engineer</title>
         <meta
           name="description"
-          content="I'm Victoria Jordan. A leader, artist, and frontend enthusiast"
+          content="I'm Kathan. A Software Engineer, AI Enthusiast and Entrepreneur."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Leader, artist, and frontend enthusiast in Austin, TX.
+            Software Engineer and AI Enthusiast in Toronto, CA.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Victoria, a computer science student and the Founder and
-            President of Girls Who Code at Texas State University. I am
-            passionate about frontend engineering, empowering women in tech, and
-            creating inclusive spaces for beginners in computer science.
+            I&apos;m Kathan, full stack developer/software engineer. I left my home @ 21 (🇮🇳-🇨🇦) to become Independent. I am on my journey to exploring the world of Softwares and AI.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://github.com/vjordan-cs"
+              href="https://github.com/DarkInventor"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/in/victoria-jordan01/"
+              href="https://linkedin.com/in/kathan-mehta-software-dev"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />

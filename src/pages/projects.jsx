@@ -11,41 +11,91 @@ import logoHeart from '@/images/logos/gwc.png'
 
 const projects = [
   {
-    name: 'YOUphoria: A comprehensive sex education app for teens',
+    name: 'Reachactory: SaaS/AI tool distribution platform (revenue of $1.5K+)',
     description:
-      "YOUphoria is built with Flutter and Firebase Authentication for seamless user experience and secure data handling. Google Maps API provides location-based resources, and ChatGPT API is leveraged to create an inclusive, age-appropriate AI chatbot, addressing teens' nuanced questions with personalized responses.",
+      "Developed with Next.js, React, and Tailwind CSS for optimal UI/UX. Utilizes Vercel, Buildspace, and Stripe for advanced functionality. Agile methodologies guide the development process, with designs in Figma and version control via GitHub.",
     link: {
-      href: 'https://github.com/halcyonCore/youphoria',
-      label: 'GitHub',
+      href: 'https://reachactory.online',
+      label: 'Online',
     },
-    logo: youphoria,
+    logo: logoOpenShuttle,
   },
   {
-    name: 'Tailwind Animation Exploration',
+    name: 'Logo Maker AI',
     description:
-      'Leveraging Tailwind CSS, this captivating one-page project showcases mesmerizing animations and innovative blend modes for striking color and movement',
+      'Crafted in Figma for a stunning UI and built with Next.js and Tailwind CSS for dynamic, responsive design. Optimized on Vercel with Stripe and Replicate API integration for seamless user experience. Backend powered by Node.js, Express, and MongoDB ensures efficient data handling, while Google API enhances security for user authentication.',
     link: {
-      href: 'https://tailwind-animation-exploration.vercel.app/',
-      label: 'tailwind-animation-exploration.vercel.app/',
+      href: 'https://github.com/DarkInventor/logomaker',
+      label: 'Github',
     },
     logo: orb,
   },
   {
-    name: 'Girls Who Code TXST',
+    name: 'Instagen: Bringing Vision to Life',
     description:
-      "I've created the entire structure of our Girls Who Code chapter, including our website! It utilizes Stripe's API to accept donations that fund our events and activities.",
-    link: { href: 'http://gwc-txst.com', label: 'gwc-txst.com' },
+      "Crafted an intuitive UI/UX with precision, guided by Figma's design principles. Unveiled the innovative Image Describer + Instagram Caption Generator, providing users with curated GPT-generated content. Built using Next.js, Tailwind CSS, and integrated with GPT-3 for dynamic content generation.",
+    link: { href: 'https://github.com/DarkInventor/InstaCaption', label: 'Github' },
     logo: logoHeart,
   },
   {
-    name: 'Java vs. C++',
+    name: 'Buildfast (Monthly Revenue: $20, Annual Revenue: $240)',
     description:
-      'Creating an ad-free website that highlights the syntax differences between Java and C++ to benefit the curriculum of my Object Oriented Programming class.',
+      'A user-centric platform designed in Figma and developed with React, JavaScript, and Tailwind CSS. Features dynamic landing pages powered by Vercel, OpenAI Vision API, and DALL·E 3. Collaborative design and development facilitated through Figma and GitHub, with Firebase ensuring efficient data management.',
     link: {
-      href: 'https://cpp-vs-java.vercel.app/',
-      label: 'cpp-vs-java.vercel.app',
+      href: 'https://buildfast.site',
+      label: 'Online',
     },
     logo: logoAnimaginary,
+  },
+  {
+    name: 'Boilerplate',
+    description:
+      'A light-weight version of taxonomy to build SaaS superfast. Utilizes Shad-CN UI, Next.js 14, TypeScript, Prisma, PlanetScale, NextAuth, and Stripe for a comprehensive development experience.',
+    link: {
+      href: 'https://boilerplatee.vercel.app/',
+      label: 'Online',
+    },
+    logo: logoHeart, // Updated logo variable
+  },
+  {
+    name: 'Designfast',
+    description:
+      'A comprehensive Figma Design Kit featuring over 100 components, 15 Landing Pages, and 10 Full Design templates. Built with Next.js, Tailwind CSS, and integrated with Stripe for a seamless design to development workflow.',
+    link: {
+      href: 'https://www.designfast.site/',
+      label: 'Online',
+    },
+    logo: orb, // Updated logo variable
+  },
+  {
+    name: 'Air-Quality',
+    description:
+      'The Air-Quality project forecasts PM2.5 & PM10 levels using Python, integrating Pandas and NumPy for data preprocessing and analytics. Advanced regression models enable precise, real-time environmental insights.',
+    link: {
+      href: 'https://github.com/DarkInventor/Air-Quality',
+      label: 'Github',
+    },
+    logo: logoOpenShuttle, // Updated logo variable
+  },
+  {
+    name: 'WindowsAssistant',
+    description:
+      'An innovative Python-based personal assistant, WindowsAssistant simplifies daily tasks through advanced looping, leveraging pyttsx3 for voice interactions, and TensorFlow for intelligent decision-making.',
+    link: {
+      href: 'https://github.com/DarkInventor/WindowsAssistant',
+      label: 'Github',
+    },
+    logo: logoAnimaginary, // Updated logo variable
+  },
+  {
+    name: 'VisionSystem',
+    description:
+      'VisionSystem is a cutting-edge solution for individuals with visual impairments, leveraging Python, OpenCV, and YOLO for real-time object detection. Built on a Raspberry Pi 4B, it integrates a camera, speaker, motion, and pulse sensors to provide auditory feedback, enhancing spatial awareness and interaction with the environment.',
+    link: {
+      href: 'https://github.com/DarkInventor/VisionSystem',
+      label: 'Github',
+    },
+    logo: youphoria, // Updated logo variable
   },
   // {
   //   name: 'OpenShuttle',
@@ -71,7 +121,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Victoria Jordan</title>
+        <title>Projects - Kathan Mehta</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
@@ -79,7 +129,23 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="A couple of my favorite personal projects."
-        intro="This summer, I learned about the trifecta that is React, Next.js, and TailwindCSS. I haven't looked back since!"
+        intro={
+          <>
+            <p>This summer, I learned about the trifecta that is React, Next.js, and TailwindCSS. I haven't looked back since!</p>
+            <p className="mt-4">Diving deeper, I've honed my skills across a broad spectrum of technologies:</p>
+            <ul className="list-disc pl-6 mt-2">
+              <li><strong>Languages:</strong> HTML, CSS, JavaScript, TypeScript, Python</li>
+              <li><strong>Frameworks:</strong> React, Next.js, Tailwind CSS, React Native, Node.js, Express, jQuery, WordPress, Shopify</li>
+              <li><strong>Tools:</strong> Git, AWS, GCP, Azure, Docker, CI/CD</li>
+              <li><strong>AI:</strong> OpenAI, Dall-E, LLAMA Meta AI, Langchain SDK, Vercel AI SDK, Finetuning Models, Embedding</li>
+              <li><strong>Database/Management:</strong> MySQL, PostgreSQL, MongoDB, Firebase, Supabase</li>
+              <li><strong>Deployment Platforms:</strong> AWS, Render, Cloudflare, Huggingface</li>
+              <li><strong>Python Based Web:</strong> FastAPI, Flask, Streamlit</li>
+              <li><strong>Payment Integrations:</strong> Stripe, PayPal, Lemon Squeezy</li>
+            </ul>
+            <p className="mt-4">Embracing these <strong>TECHNICAL SKILLS</strong> has empowered me to create and contribute to projects that are not only functional but also cutting-edge.</p>
+          </>
+        }
       >
         <ul
           role="list"

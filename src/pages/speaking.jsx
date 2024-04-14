@@ -29,56 +29,62 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Speaking - Victoria Jordan</title>
+        <title>Experience - Kathan Mehta</title>
         <meta
           name="description"
           content="If you are looking for your next guest speaker, I'm your girl!"
         />
       </Head>
       <SimpleLayout
-        title="I love to share the joy of STEM+C"
-        intro="If you are looking for your next guest speaker, I'm your girl! I am passionate about women in STEM+C, living life for the adventure, and navigating college as a non-traditional student."
+        title="My Professional Journey in Tech"
+        intro="Embarking on a path filled with innovation, leadership, and development, my career in technology spans various roles and achievements. Here's a glimpse into my professional experiences."
       >
         <div className="space-y-20">
-          <SpeakingSection title="Texas State University">
+          <SpeakingSection title="Lead Software Engineer at Royal Labs, LLC – Remote (2024 – Present)">
             <Appearance
               href=""
-              title="Life as a First-Gen and Non-Traditional Student"
-              description="My journey navigating young adulthood, finding the way back to academia, and discovering a passion for leadership along the way."
-              event="TSU Common Experience"
-              cta="November 15th, 2022"
-            />
-            <Appearance
-              href=""
-              title="(Re)visiting First Generation Students Experiences in STEM Panelist"
-              description="A discussion on attending a Hispanic Serving Intitution, the significance of our cultural backgrounds, and how it relates to our experiences in the classroom."
-              event="TSU Professional Development Series"
-              cta="November 10th, 2022"
-            />
-            <Appearance
-              href=""
-              title="Counter-Life Herstories Conference Guest Speaker"
-              description="Event with nearly 500 K-12 students, illuminating hidden truths about women and girls of color in STEM+C professions."
-              event="TSU Conference"
-              cta="November 8th, 2022"
-            />
-            <Appearance
-              href=""
-              title="Cohost for The Future of Technology is Human with Dr. Deb Donig"
-              description="The vision of a better world is at the heart of technological innovation. How can we take back a vision of technological production so that it more truly and equitably aligns with human values?"
-              event="TSU Common Experience"
-              cta="October 26th, 2022"
+              title="Pitch Deck Analysis Software Development"
+              description="Tasked with leading the development and launch of a software aimed at analyzing and improving pitch decks. Utilized a comprehensive toolset including NPM v9, Node v18, Next.js v14, Tailwind CSS, Nx Monorepo v16, AWS Supabase, Vercel, Zapier, Segment.io, Mixpanel, Google Analytics, OpenAI, and Lemon Squeezy."
+              event="Royal Labs, LLC"
+              cta="Ongoing"
             />
           </SpeakingSection>
-          {/* <SpeakingSection title="Podcasts">
+          <SpeakingSection title="N&W Builder/Apprentice at Buildspace – San Francisco, CA (2023 – Present)">
             <Appearance
-              href="#"
-              title="Using design as a competitive advantage"
-              description="How we used world-class visual design to attract a great team, win over customers, and get more press for Planetaria."
-              event="Encoding Design, July 2022"
-              cta="Listen to podcast"
+              href=""
+              title="Revolutionary Product Development"
+              description="Selected to collaborate with over 18,000 developers globally on a revolutionary product. Secured over $10K in Microsoft for Startup credits, launched 5 Buildspace and OpenAI-powered SaaS products, engaged with over 10,000 users, and led a team including 2 interns and various freelancers."
+              event="Buildspace"
+              cta="Ongoing"
             />
-          </SpeakingSection> */}
+          </SpeakingSection>
+          <SpeakingSection title="Team Leader at Buyer Folio – Toronto, ON (2023)">
+            <Appearance
+              href=""
+              title="Financial DNA App Development"
+              description="Developed a parallel calculation engine for the world’s first Financial DNA app in the real-estate industry. Applied Agile principles, and employed tools like React Native, Styled Components, MongoDB, Axios, and PayPal."
+              event="Buyer Folio"
+              cta="Completed"
+            />
+          </SpeakingSection>
+          <SpeakingSection title="Full Stack Developer at Western PU Industries – Gujarat, IN (2020 – 2021)">
+            <Appearance
+              href=""
+              title="MERN Stack Web Development"
+              description="Developed responsive websites using the MERN stack, optimizing workflows with Git, Jenkins, and Docker. Tailored solutions to meet evolving needs and industry standards."
+              event="Western PU Industries"
+              cta="Completed"
+            />
+          </SpeakingSection>
+          <SpeakingSection title="IT Consultant at JK Filters India – Gujarat, IN (2019 – 2020)">
+            <Appearance
+              href=""
+              title="Website Development and Team Collaboration"
+              description="Launched 3 websites, ensuring seamless online experiences and successful delivery through collaboration with cross-functional teams."
+              event="JK Filters India"
+              cta="Completed"
+            />
+          </SpeakingSection>
         </div>
       </SimpleLayout>
     </>
