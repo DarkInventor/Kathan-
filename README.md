@@ -1,42 +1,46 @@
-# Spotlight
+# Welcome to my Portfolio Website!
 
-Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+This project is built using Next.js, Tailwind CSS, Headless UI, and MDX to showcase my projects, skills, and experiences in one place.
 
-## Getting started
+## Recent Updates
 
-To get started with this template, first install the npm dependencies:
+- Updated meta tags in the `pages` directory for improved SEO and social sharing.
+- Added new components, images, and styles for a polished user experience.
 
-```bash
-npm install
-```
+## Getting Started
 
-Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` variable to your site's public URL:
+Follow these steps to get the project up and running on your local machine:
 
-```
-NEXT_PUBLIC_SITE_URL=https://example.com
-```
+1. Clone the repository
+2. Navigate to the project directory: `cd DarkInventor`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and visit: [http://localhost:3000](http://localhost:3000)
 
-Next, run the development server:
+## Project Structure
 
-```bash
-npm run dev
-```
+- **`/pages`**: Contains Next.js pages including the updated meta tags.
+- **`/components`**: Houses reusable React components for the website.
+- **`/images`**: Stores images used in the portfolio.
+- **`/styles`**: Contains Tailwind CSS configuration and utility classes.
+- **`/lib`**: Includes additional libraries or utilities for the project.
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+## Customization
 
-## Customizing
+Feel free to customize the website to suit your needs:
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+- Update meta tags and content in `/pages` as needed.
+- Modify styles in `/styles` or add new Tailwind CSS utility classes.
+- Expand functionality by adding new components or pages in `/components` or `/pages`.
 
-## License
+## Deploying
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+Deploy the website to your preferred hosting platform. For example, you can deploy to Vercel using the following steps:
 
-## Learn more
+1. Install Vercel CLI: `npm install -g vercel`
+2. Login to Vercel: `vercel login`
+3. Deploy the project: `vercel --prod`
 
-To learn more about the technologies used in this site template, see the following resources:
+## Feedback and Contributions
 
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [MDX](https://mdxjs.com) - the MDX documentation
+I welcome feedback, suggestions, and contributions to enhance this project. Feel free to open issues for bugs or feature requests, or submit pull requests to improve the codebase.
